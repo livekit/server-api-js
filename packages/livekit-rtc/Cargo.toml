@@ -10,8 +10,8 @@ crate-type = ["cdylib"]
 napi = { version = "2.12.2", default-features = false, features = ["async", "napi6"] }
 napi-derive = "2.12.2"
 livekit-ffi = { path = "./rust-sdks/livekit-ffi" }
-prost = "0.12"
-prost-types = "0.12"
+prost = "0.13"
+prost-types = "0.13"
 log = "0.4.20"
 tokio = { version = "1.37.0", features = ["full"] }
 
